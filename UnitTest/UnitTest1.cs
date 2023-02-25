@@ -24,7 +24,6 @@ namespace UnitTest
         }
 
         //TC 1.2
-        // TC 1.1
         [Test]
         [TestCase("I am in Any Mood")]
         public void Test2_AnalyzeMood_PassingValidInput_ReturnTrue(string input)
