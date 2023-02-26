@@ -23,18 +23,5 @@ namespace UnitTest
 
             Assert.AreEqual(expected, actual);
         }
-
-        /*//TC 1.2
-        [Test]
-        [TestCase("I am in Any Mood")]
-        public void Test2_AnalyzeMood_PassingValidInput_ReturnTrue(string input)
-        {
-            MoodAnalyser msg = new MoodAnalyser(input);
-            string expected = "Happy";
-
-            var actual = msg.AnalyseMood();
-
-            Assert.AreEqual(expected, actual);
-        }*/
     }
 }
